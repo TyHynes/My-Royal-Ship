@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <ThingDef ParentName="NECShipBase">
+    <defName>Shuttle_Player</defName>
+    <label>Shuttle</label> 
+    <description>A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system.
+
+Passenger cap: 5
+Space flight: Yes
+----------------------------
+Speed: Good
+Fuel capacity: 400L
+Fuel efficiency: Excellant
+----------------------------
+Cargo capacity: 600kg</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/Shuttle</texPath> 
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(6,3)</drawSize>
+	  <color>(162,164,149)</color>
+	  <shadowData>
+        <volume>(4.1, 1.0, 1.8)</volume>
+        <offset>(0, 0, -0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <size>(5,3)</size>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Mass>20</Mass>
+      <Beauty>15</Beauty>
+    </statBases>
+    <costList>
+      <Steel>1000</Steel>
+      <Plasteel>10</Plasteel>
+      <Gold>50</Gold>
+      <Silver>200</Silver>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Transporter">
+        <restEffectiveness>1</restEffectiveness>
+        <massCapacity>400</massCapacity>
+      </li>
+      <li Class="SRTS.CompProperties_LaunchableSRTS">
+        <travelSpeed>15</travelSpeed>
+        <fuelPerTile>0.5</fuelPerTile>
+        <minPassengers>1</minPassengers>
+        <maxPassengers>5</maxPassengers>
+        <shuttleBayLanding>true</shuttleBayLanding>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelCapacity>400</fuelCapacity>
+        <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+        <initialConfigurableTargetFuelLevel>400</initialConfigurableTargetFuelLevel>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <initialFuelPercent>0.25</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+        <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+	  </comps>
+    <researchPrerequisites>
+      <li>Research_RoyalShuttle</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <uiIconScale>1.25</uiIconScale>
+  </ThingDef>
+</Defs>

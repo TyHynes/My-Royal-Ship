@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ResearchProjectDef>
+    <tab>SRTSE</tab>
+    <defName>Research_RoyalShuttle</defName>
+    <label>Royal Shuttles</label>
+    <description>The Empire always reward their nobles handsomely, and to further reinforce that Relationship, They give their Knights their own personal shuttle, an impresive device capable of traversing the entire Star System. 
+	
+	(For Now, the only way to obtain the techprint is by having an Colonist be a knight or higher, there's no way to obtain the techprint if you rebel the Empire.)</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>TransportPod</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>0</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags><li>Empire</li></heldByFactionCategoryTags>
+  </ResearchProjectDef>
+</Defs>

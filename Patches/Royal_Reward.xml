@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RoyalTitleDef[defName="Knight"]</xpath>
+    <value>
+      <rewards>
+	  <Shuttle_Player>1</Shuttle_Player>
+	  <Techprint_Research_RoyalShuttle>1</Techprint_Research_RoyalShuttle>
+    </rewards>
+    </value>
+  </Operation>
+</Patch>

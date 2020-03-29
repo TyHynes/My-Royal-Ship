@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>My Royal Shuttle</name>
+  <author>Ty</author>
+ 	<supportedVersions>
+	<li>1.1</li>
+	</supportedVersions>
+<description>Ever wanted your own ship for others to gauze at, do you ever look at that black and white shuttle and wonder "I want that" Well, This is the mod for you! Introducing My Royal Shuttle, a mod that let's use your own shuttle! All for the low price of being a noble! Get yours today!</description>
+<packageId>Ty.MyRoyalShuttle</packageId>
+<loadBefore>
+</loadBefore>
+<loadAfter>
+<li>Ludeon.Rimworld</li>
+<li>Ludeon.Royalty</li>
+<li>smashphil.neceros.srtsexpanded</li>
+</loadAfter>
+<modDependencies>
+      <li>
+	  <packageId>Ludeon.Royalty</packageId>
+	  <displayName> Royalty DlC </displayName>
+	  </li>
+	  <li>
+        <packageId>smashphil.neceros.srtsexpanded</packageId>
+        <displayName>SRTS Expanded</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1845423808</steamWorkshopUrl>
+		<downloadUrl>https://ludeon.com/forums/index.php?topic=49573.0</downloadUrl>
+      </li>
+    </modDependencies>
+
+</ModMetaData>
