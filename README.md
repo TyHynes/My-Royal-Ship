@@ -15,7 +15,7 @@ Ever wanted your own ship for others to gauze at, do you ever look at that black
     
 [h2] Thanks and Credits [/h2]
 
--Ludeon for making the shuttle textures
--Smashphil and Necero's for making Srts, which is the basis for this mod. 
+- Ludeon for making the shuttle textures
+- Smashphil and Necero's for making Srts, which is the basis for this mod. 
   
  
